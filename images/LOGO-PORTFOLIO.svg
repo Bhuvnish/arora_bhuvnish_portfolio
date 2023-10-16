@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 863 307.12">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: LucidaBright, 'Lucida Bright';
+        font-size: 29px;
+        letter-spacing: .16em;
+      }
+
+      .cls-2 {
+        font-size: 127px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+        font-family: RageItalic, 'Rage Italic';
+      }
+
+      .cls-3 {
+        font-size: 161px;
+      }
+
+      .cls-4 {
+        fill: #29abe2;
+        stroke: gray;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="m264,199.67c-45.98,90.64,9.85,10.23-92,52-63.36,25.98-128-2.16-128-66.5s55.52-116.5,124-116.5,125.11,73.62,96,131Z"/>
+  <text class="cls-3" transform="translate(62.78 223.41)"><tspan x="0" y="0">B</tspan></text>
+  <text class="cls-2" transform="translate(173.36 214.34) rotate(-.6) scale(.98 1)"><tspan x="0" y="0">a</tspan></text>
+  <text class="cls-1" transform="translate(0 301)"><tspan x="0" y="0">BHUVNISH ARORA</tspan></text>
+  <text/>
+</svg>
