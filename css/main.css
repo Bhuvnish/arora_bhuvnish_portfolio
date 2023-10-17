@@ -150,7 +150,21 @@
     text-decoration: none;
 }
 
+#loadmore a {
+    text-align: center;
+    color: azure;
+    background-color: rgb(212, 21, 21);
+    border: 2px white solid;
+    font-size: 40px;
+    text-decoration: none;
 
+   
+}
+#loadmore {
+    text-align: end;
+    margin-top: 40px;
+    
+}
 
 
 
