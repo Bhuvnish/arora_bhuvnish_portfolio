@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'Lorem ipsum typing  fffff fffeffect!'; /* The text */
+var txt = 'rrfffffff fffff fffeffect!'; /* The text */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
