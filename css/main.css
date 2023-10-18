@@ -7,30 +7,68 @@
 
 
  
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  
+  
+
+ 
+
  
  
+
+ 
+
+ 
+
+ 
+ 
+
  
  #main-nav ul  {
     list-style: none;
    text-align: center;
-   background-color: aqua;
+ 
    text-decoration: none;
+  
   
 
  }
 
- #main-nav ul li a{
-    list-style: none;
+ #main-nav  ul li a{
+  
     text-decoration: none;
     text-align: end;
     display: inline;
+    color: black;
+    display: inline-flex;
+
+
 
  } 
+
+
  
  .logo{
     text-align: center;
     
     display: inline;
+    
     
     padding-top: 0px;
     margin-top: 0px;
@@ -89,6 +127,56 @@
 
 
 
+#skills {
+    border: 3px solid red;
+    margin-top: 70px;
+    border-radius: 20px;
+    background-color: grey;
+   
+}
+
+#skills h3 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: red;
+
+}
+#design h4{
+
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+
+}
+#design p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#dev h5{
+
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+
+}
+#dev  p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+
 /**my work**/
 
 
@@ -115,40 +203,8 @@
 
 }
 
-.image:hover {
-    filter: grayscale(90%); 
-    transition: 0.5s;
-}
 
-.button-container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
-    justify-content: center;
-   
-}
 
-#ju {
-    margin-top: 300px;
-    border: 2px solid white;
-    background-color: red; 
-    
-    height: 70px;
-    width: 190px;
- 
-    font-size: 15px;
-    font-weight: 800;
-    margin-bottom: 100px;
-    margin-left: 500px;
-}
-
-#ju a 
-{
-    color: aliceblue;
-    text-decoration: none;
-}
 
 #loadmore a {
     text-align: center;
@@ -186,118 +242,114 @@ font-size: 29px;
 
  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-
-
- #logo  img {
-    margin-left: 400px;
-
+ /** contact6 page */
+ 
 
  
- }
-
-
- #col{
-    background-color: rgb(208, 200, 215);
- }
-
-
-#main{
-    background-color: rgb(137, 131, 131);
-}
-
-#logo h2{
-    margin-top: 20px;
+  #contact h3 {
+    text-align: center;
    
-}
-.junish{
-    width: 500px;
-    display: inline;
-
-text-align: center;}
-
-
-
-#profession{
-    margin-top: 40px;
-}
-
-#designer{
-    background-color: aquamarine;
-    color: aliceblue;
-    border-radius: 30px;
-    text-align: center;
-    padding: 4px 40px 4px 4px;
-}
-
-
-#developer{
-    background-color: aquamarine;
-    color: aliceblue;
-    border-radius: 30px;
-    text-align: center;
-    padding: 4px 40px 4px 4px;
-}
-
-
-.image{
-    background-color: black;
-  width: 430px;
-  height: 510px;
-  margin-top: 30px;
-}
-
-#bio h2{
-    text-align: center;
-    margin-top: 50px;
     font-size: 50px;
+    margin-top: 40px;
+  }
+
+
+  #contact h2 {
+    font-size: 20px;
+ border: 2px solid red;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 20px;
+  
+
+    
+  }
+
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #c61717;
+    border-radius: 6px; 
+    
+    margin-top: 7px; 
+    margin-bottom: 17px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #e9110d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #7d0202;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  div.scroll-container {
+    
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+
+.container{
+    position: relative;
+    
 }
-.bio h3{
-    color: blueviolet;
-    font-size: 30px;
-    margin-top: 30px;
+
+.img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #f8120e;
+}
+
+.container:hover .overlay
+{
+    opacity: 0.8;
+}
+
+.text  a {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    text-decoration: none;
+    border: 2px solid white;
+    
+    text-align: center;
 }
 
 
@@ -307,11 +359,26 @@ text-align: center;}
 
 
 
- @media screen and (max-width:720px) {
-    #logo { 
-        margin-left: 250px;
-        height: 500px;
-        width: 500px;
-        align-content: center;
-    }
- } -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
