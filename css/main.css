@@ -167,6 +167,27 @@
 }
 
 
+/**case study */
+
+#casestudy h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    color: red;
+}
+ #casestudy div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+
+ 
+ #casestudy p {
+font-size: 29px;
+
+ }
+
+
+
 
 
 
