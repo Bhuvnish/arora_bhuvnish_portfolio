@@ -6,7 +6,10 @@
 
 
 
- 
+
+
+
+
 .glow {
     font-size: 80px;
     color: #fff;
@@ -50,13 +53,13 @@
 
  }
 
- #main-nav  ul li a{
+ #main-nav  div ul li a{
   
     text-decoration: none;
     text-align: end;
     display: inline;
     color: black;
-    display: inline-flex;
+   
 
 
 
@@ -72,12 +75,39 @@
     
     padding-top: 0px;
     margin-top: 0px;
+   
+    align-items: center;
  }
 
- #logo h2{
+ #lo h2{
     margin-top: 20px;
    
 }
+
+.blackbox{
+  background-color: black;
+  height: 400px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.para {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+@media screen and (max-width: 771px) {
+  /* Your styles for screens wider than 600px go here */
+  .blackbox{
+    background-color: black;
+    height: 300px;
+    padding-right: 0px;
+    margin-right: 0px;
+    width: 300px;
+  } 
+}
+
+
+
 
 
 #profession{
@@ -111,6 +141,7 @@
     margin-top: 60px;
     font-size: 30px;
     margin-bottom: 50px;
+    color: red;
 
 }
     
@@ -220,6 +251,24 @@
     text-align: end;
     margin-top: 40px;
     
+}
+
+@media screen and (max-width: 607px){
+  .blackbox{
+    width: 200px;
+  }
+  #loadmore a {
+    text-align: center;
+    color: azure;
+    background-color: rgb(212, 21, 21);
+    border: 2px white solid;
+    font-size: 20px;
+    text-decoration: none;
+
+   
+}
+
+  
 }
 
 
